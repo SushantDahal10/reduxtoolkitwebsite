@@ -39,8 +39,9 @@ export default function Cartitem({ id, img, title, price, amount }) {
             if (amount === 1) {
               dispatch(removeitem(id));
               return;
+            } else {
+              dispatch(decreaseitem(id));
             }
-            dispatch(decreaseitem(id));
           }}
         >
           <ChevronDown></ChevronDown>
