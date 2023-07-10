@@ -9,7 +9,7 @@ export default function Navbar() {
     <nav>
       <div>
         <div className="nav-center">
-          <h3>redux toolkit</h3>
+          <h3>Mobile Store</h3>
           <div className="nav-container">
             <CartIcon></CartIcon>
             <div className="amount-container">
